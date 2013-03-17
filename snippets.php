@@ -1,4 +1,8 @@
 <?php
+
+//examples init class for testing
+class filterTest extends PHPUnit_Framework_TestCase
+
 /**************************************
  * MOCKS ASSERTS *********************
  **************************************/
@@ -13,7 +17,7 @@
 //  MOCK con returnValueMap:
 //--------------------------------------
 Para evaluar que en un mock se llama a un mismo metodo 
-pero con diferentes arguments y diferentes resultados. 
+pero con diferentes argumentos y diferentes resultados. 
 Problema: no hay restricción de que después de llamar 
 a un metodo luego se le llame de nuevo.
 
